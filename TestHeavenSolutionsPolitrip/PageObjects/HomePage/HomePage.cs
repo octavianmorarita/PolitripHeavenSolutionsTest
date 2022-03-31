@@ -22,7 +22,7 @@ namespace TestHeavenSolutionsPolitrip.PageObjects
         public void hoverMouseIcon()
         {
             Actions action = new Actions(driver);
-            IWebElement btnIcon = driver.FindElement(By.CssSelector("span[class='profile-icon']"));
+            IWebElement btnIcon = driver.FindElement(By.CssSelector("button[id='qa_header-profile-button']"));
             action.MoveToElement(btnIcon).Perform();
 
         }

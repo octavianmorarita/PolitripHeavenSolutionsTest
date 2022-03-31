@@ -13,7 +13,7 @@ namespace TestHeavenSolutionsPolitrip.Tests
     public class RegisterTests
     {
         private IWebDriver driver;
-        //private LoginPage loginPage;
+
         private RegisterPage registerPage;
 
         [TestInitialize]
@@ -33,12 +33,12 @@ namespace TestHeavenSolutionsPolitrip.Tests
             WaitHelpers.WaitElementIsVisible(driver, homePage.SignUp);
             homePage.BtnSignUp.Click();
         }
-        //[TestCleanup]
-        //public void RegisterCleanUp()
-        //{
+        [TestCleanup]
+        public void RegisterCleanUp()
+        {
 
-        //    driver.Quit();
-        //}
+            driver.Quit();
+        }
 
         [TestMethod]
         public void a_Should_successfully_created_new_account()
@@ -47,7 +47,7 @@ namespace TestHeavenSolutionsPolitrip.Tests
             {
                 FirstName = "Octavian",
                 LastName = "Morarita",
-                Email = "octavianmorarita3@gmail.com",
+                Email = "octavianmorarita@gmail.com",
                 Password = "Tester01",
                 RepeatPassword = "Tester01",
                 choice = "Web-Search",
@@ -55,8 +55,8 @@ namespace TestHeavenSolutionsPolitrip.Tests
 
             };
             var homePage = registerPage.RegisterApplication(newRegisterBO);
-            homePage.hoverMouseIcon();
-            homePage.btnMyProfile.Click();
+            //homePage.hoverMouseIcon();
+            //homePage.btnMyProfile.Click();
 
         }
 
@@ -67,7 +67,7 @@ namespace TestHeavenSolutionsPolitrip.Tests
             {
                 FirstName = "Octavian",
                 LastName = "Morarita",
-                Email = "octavianmorarita3@gmail.com",
+                Email = "octavianmorarita@gmail.com",
                 Password = "Tester01",
                 RepeatPassword = "Tester01",
                 choice = "Social networks",
