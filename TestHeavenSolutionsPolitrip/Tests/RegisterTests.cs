@@ -47,7 +47,7 @@ namespace TestHeavenSolutionsPolitrip.Tests
             {
                 FirstName = "Octavian",
                 LastName = "Morarita",
-                Email = "octavianmorarita1@gmail.com",
+                Email = "octavianmorarita3@gmail.com",
                 Password = "Tester01",
                 RepeatPassword = "Tester01",
                 choice = "Web-Search",
@@ -67,7 +67,7 @@ namespace TestHeavenSolutionsPolitrip.Tests
             {
                 FirstName = "Octavian",
                 LastName = "Morarita",
-                Email = "octavianmorarita1@gmail.com",
+                Email = "octavianmorarita3@gmail.com",
                 Password = "Tester01",
                 RepeatPassword = "Tester01",
                 choice = "Social networks",

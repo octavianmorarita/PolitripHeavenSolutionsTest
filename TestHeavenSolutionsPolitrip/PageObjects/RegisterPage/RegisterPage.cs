@@ -52,10 +52,10 @@ namespace TestHeavenSolutionsPolitrip.PageObjects.RegisterPage
             TxtRepeatPassword.SendKeys(newRegisterBO.RepeatPassword);
             selectChoice(newRegisterBO);
 
-            //Thread.Sleep(1000);
+            Thread.Sleep(1000);
             WaitHelpers.WaitElementIsVisible(driver, SubmitReg);
             BtnSubmit.Click();
-            //Thread.Sleep(1000);
+            Thread.Sleep(1000);
 
             //scroll window down
             IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
@@ -65,7 +65,7 @@ namespace TestHeavenSolutionsPolitrip.PageObjects.RegisterPage
             Thread.Sleep(1000);
 
             Participant.Click();
-
+            Thread.Sleep(1000);
             return new HomePage(driver);
         }
 

@@ -1,13 +1,20 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{078D7D73-0E66-47B6-ADFD-AD9205EE6FEC}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestHeavenSolutionsPolitrip/PageObjects/HomePage/HomePage.cs">
+    <Files>
+      <File FileName="TestHeavenSolutionsPolitrip/Tests/RegisterTests.cs" Line="57" Column="54" />
+      <File FileName="TestHeavenSolutionsPolitrip/PageObjects/RegisterPage/RegisterPage.cs" Line="68" Column="32" />
+      <File FileName="TestHeavenSolutionsPolitrip/PageObjects/HomePage/HomePage.cs" Line="25" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="TestHeavenSolutionsPolitrip" expanded="True" selected="True">
+          <Node name="TestHeavenSolutionsPolitrip" expanded="True">
             <Node name="TestHeavenSolutionsPolitrip" expanded="True">
               <Node name="Dependencies" expanded="True" />
               <Node name="PageObjects" expanded="True">
-                <Node name="HomePage" expanded="True" />
+                <Node name="HomePage" expanded="True">
+                  <Node name="HomePage.cs" selected="True" />
+                </Node>
                 <Node name="RegisterPage" expanded="True" />
               </Node>
               <Node name="Tests" expanded="True" />
