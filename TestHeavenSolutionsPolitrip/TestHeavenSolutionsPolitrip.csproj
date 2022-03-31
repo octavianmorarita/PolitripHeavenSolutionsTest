@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.8" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.8" />
+    <PackageReference Include="coverlet.collector" Version="3.1.2"><IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+<PrivateAssets>all</PrivateAssets>
+</PackageReference>
+    <PackageReference Include="Selenium.WebDriver" Version="4.1.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="100.0.4896.6000" />
+    <PackageReference Include="Selenium.Support" Version="4.1.0" />
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Selenium.WebDriver" />
+    <None Remove="Selenium.WebDriver.ChromeDriver" />
+    <None Remove="PageObjects\" />
+    <None Remove="PageObjects\HomePage\" />
+    <None Remove="PageObjects\RegisterPage\" />
+    <None Remove="Tests\" />
+    <None Remove="Utils\" />
+    <None Remove="Selenium.Support" />
+    <None Remove="DotNetSeleniumExtras.WaitHelpers" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PageObjects\" />
+    <Folder Include="PageObjects\HomePage\" />
+    <Folder Include="PageObjects\RegisterPage\" />
+    <Folder Include="Tests\" />
+    <Folder Include="Utils\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,41 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{078D7D73-0E66-47B6-ADFD-AD9205EE6FEC}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TestHeavenSolutionsPolitrip" expanded="True" selected="True">
+            <Node name="TestHeavenSolutionsPolitrip" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="PageObjects" expanded="True">
+                <Node name="HomePage" expanded="True" />
+                <Node name="RegisterPage" expanded="True" />
+              </Node>
+              <Node name="Tests" expanded="True" />
+              <Node name="Utils" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="TestHeavenSolutionsPolitrip" expanded="True">
+            <Node name="TestHeavenSolutionsPolitrip" expanded="True">
+              <Node name="TestHeavenSolutionsPolitrip.Tests" expanded="True">
+                <Node name="RegisterTests" expanded="True">
+                  <Node name="a_Should_successfully_created_new_account" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TestHeavenSolutionsPolitrip PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
